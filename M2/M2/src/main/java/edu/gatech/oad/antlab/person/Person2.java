@@ -9,7 +9,7 @@ package edu.gatech.oad.antlab.person;
  * @version 1.1
  */
 public class Person2 {
-    /** Holds the persons real name */
+    /** Joshua Davis / jdavis410 */
     private String name;
 	 	/**
 	 * The constructor, takes in the persons
@@ -31,7 +31,9 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-	  return null;
+
+
+	  return input;
 	}
 	/**
 	 * Return a string rep of this object
