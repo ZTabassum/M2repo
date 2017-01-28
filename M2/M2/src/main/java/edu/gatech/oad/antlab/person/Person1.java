@@ -42,7 +42,7 @@ public class Person1 {
         for (int j = 0; j < 2; j++) {
             result += input.charAt(j);
         }
-        return result;
+        return result; //
     }
 
     /**
