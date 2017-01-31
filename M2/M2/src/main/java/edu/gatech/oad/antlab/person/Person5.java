@@ -35,12 +35,12 @@ public class Person5 {
 			return null;
 		} else {
 			String newstring = null;
-			for(int i = 2; i < string.length; i++){
+			for(int i = 2; i < input.length(); i++){
 				newstring += input.charAt(i);
 			}
 
 			for(int i = 0; i <= 1; i++){
-				newstring += charAt(i);
+				newstring += input.charAt(i);
 			}
 
 			return newstring;
@@ -49,10 +49,7 @@ public class Person5 {
 
 	}
 
-	public static String shift(String s){
-		return s.charAt()
 
-	}
 	
 	/**
 	 * Return a string rep of this object
